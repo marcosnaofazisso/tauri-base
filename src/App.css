@@ -22,6 +22,14 @@ body {
   overflow: hidden; 
 }
 
+html, body {
+  margin: 0; /* Remove default margin */
+  background-color: transparent;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(30px); 
+  -webkit-backdrop-filter: blur(10px);
+}
+
 a {
   text-decoration: none;
   color: inherit;
