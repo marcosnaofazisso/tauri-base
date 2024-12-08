@@ -1,10 +1,20 @@
 import React from 'react'
-import { MainContainer } from './styles'
+import { MainContainer, MainContent, MainContentBorder } from './styles'
 
 export default function Main() {
     return (
-        <MainContainer>
-            <h1>Hello world!</h1>
+        <MainContainer className='mainContainer'>
+            <MainContentBorder>
+
+                <MainContent>
+                    <h1>Hello world!</h1>
+                    <h1>Hello world!</h1>
+                    <h1>Hello world!</h1>
+                    <h1>Hello world!</h1>
+                    <h1>Hello world!</h1>
+                    <h1>Hello world!</h1>
+                </MainContent>
+            </MainContentBorder>
         </MainContainer>
     )
 }
