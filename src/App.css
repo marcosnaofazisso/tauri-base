@@ -15,11 +15,11 @@ html {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  font-size: 1rem; /* Use rem for scalable typography */
-  line-height: 1.5;
-  background-color: #ffffff; /* Default background */
-  color: #000000; /* Default text color */
-  overflow: hidden; /* Prevent unnecessary scrollbars */
+  font-size: 1rem; 
+  line-height: 1.2;
+  background-color: #ffffff; 
+  color: #000000; 
+  overflow: hidden; 
 }
 
 a {
