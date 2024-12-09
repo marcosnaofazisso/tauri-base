@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  font-size: 16px;
-  /* 1rem = 16px */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,7 +25,6 @@ html {
 body {
   margin: 0;
   font-family: "Bit-Sixteen";
-  font-size: 1rem;
   line-height: 1.2;
   background-color: #ffffff;
   color: #000000;
@@ -87,6 +84,13 @@ table {
   font-family: "Bit-Hud";
   font-style: normal;
   src: url("src/assets/fonts/Bit-Hud.woff2");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Press-Start";
+  font-style: normal;
+  src: url("src/assets/fonts/Press-Start.woff2");
 }
 
 @font-face {

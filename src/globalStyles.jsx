@@ -3,6 +3,7 @@ export const background = {
     green: "#97DC65",
     greenDark: "#4E9B42",
     greenDarker: "#1D4A22",
+    beigeLight: "#DDD",
     beige: "#CDC5B0",
     beigeDark: "#CFCAAE",
     grey: "#D1EAFB",
